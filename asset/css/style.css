@@ -1,29 +1,73 @@
 body{
-	background: green;
+    /* background: orange;
+    color: white; */
 }
 
-
-
-@media (min-width: 993px) and (max-width: 1200px)
-{
-
-
-}
-
-@media (min-width: 769px) and (max-width: 992px)
-{
-
+/* style for services */
+.service-container{
+    /* property: value; */
+   
 
 }
 
-@media (min-width: 380px) and (max-width: 768px)
-{	
+.service-title h4{
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
 
 
 }
 
-@media (min-width: 0px) and (max-width: 379px)
-{
+.web-development{
+    /* property: value; */
+    font-size: 18px;
+    background: orange;
+    padding: 2px 2px 20px 19px;
+    border: 2px solid #555;
+    border-radius: 15px;
+    width: 200px;
+    float: left;
+}
+.web-development h4{
+    /* property: value; */
+    font-size: 20px;
+    font-weight:bolder;
+    font-style: italic;
+    /* border: 2px solid red;
+    margin: 0px; */
+   
+}
+
+.web-design{
+    /* property: value; */
+    background-image: url('../images/laptop1.jpg');
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-attachment: scroll;
+    background-color: blue;
+
+    width: 200px;
+    float: left;
+
+    /* margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    margin-right: 70px; */
+
+    margin: 30px 70px 30px 70px;
+    padding: 20px;
+
+}
+
+.digital-marketing{
+    /* property: value; */
+    background-image: url('../../laptop2.jpg');
+    background-attachment: fixed;
+    padding: 20px;
+    float: left;
+    width: 200px;
 
 
 }
+/* end style for services */
