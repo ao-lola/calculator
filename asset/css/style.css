@@ -1,73 +1,63 @@
-body{
-    /* background: orange;
-    color: white; */
+/* primary color code  */
+/* light blue: #00BCD5 */
+/* pink: #FF4181 */
+/* light green: #73D077 */
+
+.primary-color{
+    color: #00BCD5;
+}
+.primary-bg{
+    background: #00BCD5;
+}
+.white-bg{
+    background: #fff;
 }
 
-/* style for services */
-.service-container{
-    /* property: value; */
-   
 
+.simple-calculator{
+    margin-top: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}.multiplier{
+    margin-top:30px;
 }
 
-.service-title h4{
-    font-size: 35px;
-    text-align: center;
-    text-decoration: underline;
-    text-transform: uppercase;
 
 
-}
-
-.web-development{
-    /* property: value; */
-    font-size: 18px;
-    background: orange;
-    padding: 2px 2px 20px 19px;
-    border: 2px solid #555;
-    border-radius: 15px;
-    width: 200px;
-    float: left;
-}
-.web-development h4{
-    /* property: value; */
-    font-size: 20px;
-    font-weight:bolder;
-    font-style: italic;
-    /* border: 2px solid red;
-    margin: 0px; */
-   
-}
-
-.web-design{
-    /* property: value; */
-    background-image: url('../images/laptop1.jpg');
-    background-repeat: no-repeat;
-    background-position: center left;
-    background-attachment: scroll;
-    background-color: blue;
-
-    width: 200px;
-    float: left;
-
-    /* margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 70px;
-    margin-right: 70px; */
-
-    margin: 30px 70px 30px 70px;
-    padding: 20px;
-
-}
-
-.digital-marketing{
-    /* property: value; */
-    background-image: url('../../laptop2.jpg');
-    background-attachment: fixed;
-    padding: 20px;
-    float: left;
-    width: 200px;
 
 
-}
-/* end style for services */
+
+
+
+
+
+
+
+/* Media Query Settings Here */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+ }
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+ 
+    
+
+ }
+
+
