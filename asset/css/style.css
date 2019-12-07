@@ -22,6 +22,18 @@
     margin-top:30px;
 }
 
+#my-addition{
+    cursor: pointer;
+}
+#my-subtraction{
+    cursor: pointer;
+}
+#my-division{
+    cursor: pointer;
+}
+#my-multiplication{
+    cursor: pointer;
+}
 
 
 

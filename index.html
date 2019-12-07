@@ -18,6 +18,7 @@
             <div class="row">
                 <div class="col-md-5 card simple-calculator">
                     <center><h3> Simple Calculator</h3></center>
+                    <div id="alert-msg"></div>
                     <label>First Number</label>
                     <input type="text" class="form-control"  name="" id="arg1">
                     
@@ -27,17 +28,37 @@
                     <input class="form-control" text="text" name="" id="output">
                     
                     <div class="row multiplier text-center">  
-                        <div class="col-md-3"><div class="card" onclick="myAddition()">Add</div></div>
+                        <div class="col-md-3"><div class="card" id="my-addition">Add</div></div>
                         <div class="col-md-3"><div class="card" id="my-subtraction">Sub</div></div>
-                        <div class="col-md-3"><div class="card" >Div</div></div>
-                        <div class="col-md-3"><div class="card" >Mul</div></div>
+                        <div class="col-md-3"><div class="card" id="my-division">Div</div></div>
+                        <div class="col-md-3"><div class="card" id="my-multiplication" >Mul</div></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    
 
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 card simple-calculator">
+                    <center><h3> Show password / hide password</h3></center>
+                    <div id="alert-msg"></div>
+                    <label>First Name</label>
+                    <input type="text" class="form-control"  name="first-name" id="arg1" placeholder="first name">
+                    
+                    <label>Last name</label>
+                    <input type="text" class="form-control"  name="last-name" id="arg2" placeholder="lastname">
+                    <label>Password</label>
+                    <input type="password" class="form-control"  name="password" id="password" placeholder="******"> 
+                    <div class="btn btn-default" id="password-icon"><i class="fa fa-eye"></i></div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
   
 
    
